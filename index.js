@@ -47,7 +47,7 @@ onValue(shoppingListInDB, function (snapshot) {
       appendItemToShoppingListEl(currentItem);
     }
   } else {
-    shoppingListEl.innerHTML = "No items here... yet";
+    shoppingListEl.innerHTML = "No tienes productos en tu carrito...";
   }
 });
 
